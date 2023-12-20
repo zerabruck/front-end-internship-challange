@@ -1,5 +1,5 @@
 import React from 'react'
-// import "../style/actor-card.css"
+import "../style/actor-card.css"
 const ActorCard = ({actor}) => {
   return (
     <>
