@@ -74,10 +74,13 @@ function App() {
             <p>Prev</p>
           </div>
           }
+          {
+            actorList.next && 
           <div onClick={()=>fetchActors(actorList.next)} className=''>
             <p>Next</p>
             <FaChevronRight/>
           </div>
+          }
         </div>
           </div>
         }
